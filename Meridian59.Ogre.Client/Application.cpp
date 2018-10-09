@@ -73,7 +73,7 @@ int __stdcall WinMain(
    LPSTR lpStrCmdString, 
    int nCmdShow)
 {
-#if _DEBUG
+#ifdef CLIENTDEBUG
    showWin32Console();
 #endif
 
@@ -90,7 +90,7 @@ int __stdcall WinMain(
    // init client and start (locks thread)
    OgreClient::Singleton->Start(true, Config::CONFIGFILE, Config::CONFIGFILE_ALT);
 
-#if _DEBUG
+#ifdef CLIENTDEBUG
    //FreeConsole();
 #endif
 

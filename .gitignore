@@ -7,6 +7,7 @@
 *.ipch
 *.VC.db
 .vs
+*.user
 
 # Other generic exclusions
 *.log
@@ -28,3 +29,4 @@ obj
 # Others
 /Meridian59.BgfService/Bin
 /Meridian59.Brain
+configuration.xml

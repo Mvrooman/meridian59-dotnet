@@ -72,7 +72,7 @@ namespace Meridian59 { namespace Ogre
          widget->setMousePassThroughEnabled(true);
          widget->setFont(UI_FONT_LIBERATIONSANS10B);
 
-#ifdef _DEBUG
+#ifdef CLIENTDEBUG
          widget->setText(CEGUI::PropertyHelper<int>::toString(i));
 #endif
          // subscribe dragend

@@ -602,7 +602,7 @@ namespace Meridian59 { namespace Ogre
          "Server 101 | US | meridian59.com\nServer 102 | US | meridian59.com");
 #elif DISTRIBUTOR_OPENMERIDIAN && OPENMERIDIAN
       TabAboutTabGeneralDistributors->setText(
-         "Server 103 | US | openmeridian.org"););
+         "Server 103 | US | openmeridian.org");
 #else
       TabAboutTabGeneralDistributors->setText("Unknown Distributor\nCustom Version");
       TabAboutTabGeneralDistributors->setProperty(UI_PROPNAME_NORMALTEXTCOLOUR, UI_COLOR_RED);

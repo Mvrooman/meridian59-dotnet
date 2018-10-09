@@ -74,7 +74,7 @@ namespace Meridian59 { namespace Ogre
          widget->setSize(CEGUI::USize(CEGUI::UDim(0, UI_BUFFICON_WIDTH), CEGUI::UDim(0, UI_BUFFICON_HEIGHT)));
          widget->setMouseCursor(UI_DEFAULTARROW);
 
-#ifdef _DEBUG
+#ifdef CLIENTDEBUG
          widget->setText(StringConvert::CLRToCEGUI(i.ToString()));
 #endif
          // subscribe click
