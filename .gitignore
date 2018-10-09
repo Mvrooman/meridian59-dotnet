@@ -22,8 +22,6 @@ bin
 obj
 
 # Excludings in Resources
-/Resources/bgfobjects/*.bgf
-/Resources/bgftextures/*.bgf
 /Resources/mails
 
 # Others
